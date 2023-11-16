@@ -1,4 +1,4 @@
-<base target="_blank">
+<base target="_blank" />
 
 # Data Foundation
 
