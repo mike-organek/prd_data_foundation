@@ -11,12 +11,15 @@ In our industry point B could be:
 * A first cut at a Minimal Viable Product
 * An appeasement to the customer to meet a deadline long past
   
-Whatever the reason, ignoring [technical debt &#x1f855;](https://www.gartner.com/en/information-technology/glossary/technical-debt) will come back to bite you with a vengeance:
+Whatever the reason, ignoring [technical debt &#x1f855;](https://www.gartner.com/en/information-technology/glossary/technical-debt) will come back to bite you with a vengeance as:
 * Design and development paralysis following a successful POC
-* Inability to address bugfixes, enhancement requests, or performance problems in your MVP without triggering regressions
-* Bottlenecking all work through the one member of your team with a mental picture of your data landscape
+* Inability to address enhancement requests or performance problems in your MVP without bringing old bugs back from the dead
+* Bottlenecking all work through the one member of your team with an accurate mental picture of your data landscape
 
 ## The Solution
 
-It is never too early to start paying down your technical debt.  The sooner you start, the sooner you can get out from under the accumulating burden before it gets out of hand.
+It is never too soon to start paying down your technical debt.  Get out from under the accumulating burden before it gets out of hand.
 
+The relational data model was first described in 1969 and [published by ACM in 1970 &#x1f855;](https://web.archive.org/web/20070612235326/http://www.acm.org/classics/nov95/toc.html).  
+
+If the thought of SQL, data warehouses, and data lakes trigger preemptive sticker shock, then 
