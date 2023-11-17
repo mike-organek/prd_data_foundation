@@ -20,6 +20,7 @@ Whatever the reason, ignoring [technical debt &#x1f855;](https://www.gartner.com
 
 It is never too soon to start paying down your technical debt.  Get out from under the accumulating burden before it gets out of hand.
 
-The relational data model was first described in 1969 and [published by ACM in 1970 &#x1f855;](https://web.archive.org/web/20070612235326/http://www.acm.org/classics/nov95/toc.html).  
+The relational data model was first described in 1969 and [published by ACM in 1970 &#x1f855;](https://web.archive.org/web/20070612235326/http://www.acm.org/classics/nov95/toc.html).  When I learned about relational algebra and calculus in an undergraduate course in the 1980s, we wrote our SQL with pen and paper because there was no RDBMS implementation available to us for classroom use.
 
-If the thought of SQL, data warehouses, and data lakes trigger preemptive sticker shock, then 
+
+
