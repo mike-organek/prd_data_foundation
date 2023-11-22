@@ -18,7 +18,7 @@ Shortcuts move you quickly from point A to point B, but a "worry about it when w
 
 ## The Solution
 
-It is never too soon to start paying down your technical debt.  Get out from under the accumulating burden before it gets out of hand.  There is a [right way&#x1f855;](./relational_modeling.md) to do this stuff.
+It is never too soon to start paying down your technical debt.  Get out from under the accumulating burden before it gets out of hand.  There is a [right way&#x1f855;](./data_best_practices.md) to do this stuff.
 
 In conversations with technology leaders, it is clear that development managers and systems architects vastly overestimate the licensing and effort costs around data warehousing and SQL data modeling.  In today's technology landscape, not only are these timeless ideals affordable, but ignoring them will cost dearly over time.
 

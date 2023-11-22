@@ -40,3 +40,8 @@ Apache Hive put a SQL face onto Hadoop, and Cloudera's Impala did its best to ma
 
 ## Data Lake
 
+
+
+## NoSQL
+
+## Data Lakehouse
