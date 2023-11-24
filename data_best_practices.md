@@ -47,25 +47,50 @@ ONR Data is happy to provide your teams coaching on these practices.
 * Manual intervention is sometimes unavoidable
 * Hands-on operations invite problems
   * Missed steps
+  * Duplicate loads
   * File format changes
-  * 
+* Validation before and after (see below)
 
-## Validate Wherever Possible
+## Validate, Validate, Validate
 
-### Testing
+### Automate Validation
 
-### Budget for Interim Quality Reporting
+* Adopt software testing tools and methods to help
+* Clearly define pipeline error handling, including notifications to outside teams
+* Treat process logs as data and put dashboards on them
+* Bookend automated validation around problematic (e.g. manual) steps
 
-### Bookend Every Manual Step
+### Quality is the Product
 
-## Use Source Code Control
+* Budget for interactive validation&mdash;including incremental visualizations that look nothing like the final product&mdash;during development
+* Earliest project milestones and deliverables must require customer sign-off
+* Remember the parable of the blind men and the elephant
+  * Involve customers and SMEs in requirements sessions
+  * There is no better invitation for clarification than a chart the end users can pick apart
 
-### Git
+## Apply Software Development Principles
 
-### Avoid Binary or Opaque Code Formats
+### Source Code Control
 
-## Control the Software Development Lifecycle
+* Manage source code and configuration artifacts with `git`
+* If your existing development does not fit in `git`, then you are doing it wrong
+* Reap the benefits:
+  * Change history as a side effect
+  * Code review as habit, leading to rapid improvements in quality and professional development
+  * Foundation for adopting DevOps and DevSecOps tools and methodologies
 
 ### Data Movement Policy
 
-### Code Change Control
+* Implement a naming convention
+* Define guidelines for transformations and data quality at each stage
+* Define and enforce data integrity early
+* Automate compliance checks
+
+### Software Development Lifecycle
+
+* Separate development from QA and production environments
+* Take advantage of new cloud paradigms to create non-production environments on demand
+* Treat support operations as product
+  * Automate cloning
+  * Adopt a test-first approach to maintenance
+* Build Change Control fences around non-development environments
