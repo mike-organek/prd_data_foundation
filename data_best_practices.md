@@ -1,17 +1,17 @@
 # Data Best Practices
 
 ## Best Practices are Habits
-Implement the below practices by setting policy and following through to form habits in your teams.  
+Adopt these practices by setting policy and then following through to make them habits in your teams.  
 
-In today's world we have screenshare calls/huddles, central code repositories, and free or open source tools to fulfill needs that used to require software packages that cost thousands of dollars per seat.
+In today's world we have screenshare calls/huddles, central code repositories, and free or open source tools to fulfill needs that used to be inadequately filled by software packages that cost thousands of dollars per seat.  It has never been easier to create a constant feedback loop with minimal impact on productivity.
 
-ONR Data is happy to provide your teams coaching on these practices.
+[ONRData &#x1f4e7;](mailto:morganek@onrdata.com) is happy to provide coaching for your teams on these practices.
 
 ## Define and Maintain Your Data Model
 
 ### Model Your Data
 
-* The Third Normal Form (3NF) should be kept top-of-mind
+* Keep the Third Normal Form (3NF) at top of mind
 * Denormalization is acceptable to meet reporting tools part way, but:
   * Understand and document the tradeoffs
   * Denormalize at the last possible step in the pipeline
@@ -23,19 +23,19 @@ ONR Data is happy to provide your teams coaching on these practices.
 * Add `not null` and `unique` constraints
 * Define Foreign Key (FK) constraints
 * Use Check constraints as needed
-* It is always better to troubleshoot a failed data load than to go searching for data anomalies identified by your end users
+* It is always easier to troubleshoot a failed data load than to diagnose data anomalies identified by end users
 
 ### Generate Documentation from Your RDBMS Catalog
 
-* Create your baseline data dictionary 
-* Create generated Entity Relationship Diagrams (ERD) 
+* Get the baseline data dictionary from the database catalog
+* FK constraints simplify Entity Relationship Diagram (ERD) production
 * Monitor completeness and currency with scripts
 
 ## Automate Your Data Flow
 
 ### Treat Data Movement as Pipelines
 
-* Settle on an orchestration policy and stick to it
+* Settle on an orchestration methodology and stick to it
 * Available methodologies span from products like Databricks down to scripts run under `cron`
 * Expose your data operations to operations staff 
   * Ensure observability
@@ -49,7 +49,7 @@ ONR Data is happy to provide your teams coaching on these practices.
   * Missed steps
   * Duplicate loads
   * File format changes
-* Validation before and after (see below)
+* Wrap manual steps with validation before and after (see below)
 
 ## Validate, Validate, Validate
 
@@ -58,7 +58,7 @@ ONR Data is happy to provide your teams coaching on these practices.
 * Adopt software testing tools and methods to help
 * Clearly define pipeline error handling, including notifications to outside teams
 * Treat process logs as data and put dashboards on them
-* Bookend automated validation around problematic (e.g. manual) steps
+* Bookend automated validation around problematic (*e.g.* manual) steps
 
 ### Quality is the Product
 
@@ -66,7 +66,7 @@ ONR Data is happy to provide your teams coaching on these practices.
 * Earliest project milestones and deliverables must require customer sign-off
 * Remember the parable of the blind men and the elephant
   * Involve customers and SMEs in requirements sessions
-  * There is no better invitation for clarification than a chart the end users can pick apart
+  * There is no better icebreaker for requirements clarification than a visualization that end users can pick apart
 
 ## Apply Software Development Principles
 
@@ -81,9 +81,9 @@ ONR Data is happy to provide your teams coaching on these practices.
 
 ### Data Movement Policy
 
-* Implement a naming convention
+* Implement a convention for naming objects
 * Define guidelines for transformations and data quality at each stage
-* Define and enforce data integrity early
+* Enforce data integrity early
 * Automate compliance checks
 
 ### Software Development Lifecycle
@@ -94,3 +94,7 @@ ONR Data is happy to provide your teams coaching on these practices.
   * Automate cloning
   * Adopt a test-first approach to maintenance
 * Build Change Control fences around non-development environments
+
+## Have We Struck a Chord?
+
+Please contact [ONRData &#x1f4e7;](mailto:morganek@onrdata.com) to schedule a call to discuss what ONRData can do for your organization to get onto the right track of doing data the right way.
