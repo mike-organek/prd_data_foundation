@@ -5,7 +5,7 @@ Adopt these practices by setting policy and then following through to make them 
 
 In today's world we have screenshare calls/huddles, central code repositories, and free or open source tools to fulfill needs that used to be inadequately filled by software packages that cost thousands of dollars per seat.  It has never been easier to create a constant feedback loop with minimal impact on productivity.
 
-[ONRData &#x1f4e7;](mailto:morganek@onrdata.com) is happy to provide coaching for your teams on these practices.
+[ONRData &#x1f4e7;](mailto:morganek@onrdata.com) is happy to provide coaching for your teams on these practices as we work to resolve your data problems.
 
 ## Define and Maintain Your Data Model
 
